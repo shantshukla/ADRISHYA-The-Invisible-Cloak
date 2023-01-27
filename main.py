@@ -48,7 +48,7 @@ for i in range(60): # capturing the bkgrd 60 times, and overlapping to make one
 
    
 
-background = np.flip(background, axis=0)
+background = np.flip(background)
 
 # flipping the background to avoid mirror image
 
