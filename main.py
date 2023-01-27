@@ -21,7 +21,7 @@ out = cv2.VideoWriter('output.avi', fourCC, 20, (200, 200))
 # (fileName, fourCCvariable, framesPerSec, frameSize)
 
 
-cap = cv2.VideoCapture(0)  # you can use 0 or 1 to capture the video
+cap = cv2.VideoCapture(CAP_V4L2)  # you can use 0 or 1 to capture the video
 
 
 time.sleep(3)
